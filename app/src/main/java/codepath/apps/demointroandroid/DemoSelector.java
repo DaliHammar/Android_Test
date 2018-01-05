@@ -14,6 +14,12 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+//App center packages
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
+
 public class DemoSelector extends Activity {
 	
 	ExpandableListView elvChapters;
