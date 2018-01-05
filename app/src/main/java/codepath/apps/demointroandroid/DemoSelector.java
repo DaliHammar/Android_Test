@@ -28,6 +28,12 @@ public class DemoSelector extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		//App center method
+		AppCenter.start(getApplication(), "375eaf32-7b38-43b9-9e1e-989eaa54ca3e",
+                Analytics.class, Crashes.class);
+		/////
+		
 		setContentView(R.layout.activity_demo_selector);
 	    setupChaptersListView();
 	}
